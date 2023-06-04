@@ -6,7 +6,7 @@ const path = require('path');
 const Deva = require('@indra.ai/deva');
 const { Octokit } = require("@octokit/rest");
 
-const package = require('../../package.json');
+const package = require('./package.json');
 const info = {
   id: package.id,
   name: package.name,
