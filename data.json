@@ -1,0 +1,56 @@
+{
+  "name": "Github Deva Data File",
+  "describe": "The main Data file for Github Deva",
+  "copyright": "Copyright (c)2023 Quinn Michaels. All rights reserved.",
+  "DATA": {
+    "agent": {
+      "id": "2005304354095",
+      "key": "github",
+      "prompt": {
+        "emoji": "⊙",
+        "text": "github",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 150,
+            "B": 255
+          },
+          "text": {
+            "R": 101,
+            "G": 192,
+            "B": 255
+          }
+        }
+      },
+      "profile": {
+        "name": "Github Deva",
+        "describe": "The Github Deva is for doing verious things with the Github API.",
+        "emoji": "/public/devas/github/emoji.png",
+        "avatar": "/public/devas/github/avatar.png",
+        "background": "/public/devas/github/background.png",
+        "color": "#ffffff",
+        "bgcolor": "#1b1f23",
+        "gender": "male",
+        "voice": "Russell"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!"
+      },
+      "context": {
+        "uid": "creating a uid",
+        "status": "viewing the status",
+        "help": "viewing the help",
+        "issue": "creating a new issue",
+        "projects": "viewing projects"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+image: ::agent_avatar::
+
+# Github Deva
+
+p:This is the main help file for Github Deva.
+
+id: ::agent_id::
+key: ::agent_key::
+name: ::agent_name::
+emoji: ::agent_emoji::
+describe: ::agent_describe::
+
+## Methods
+
+### 1. uid
+p:Generate a unique id from the Github Deva.
+cmd:#github uid
+
+### 2. status
+p:Return the status for the Github Deva.
+cmd:#github status
+
+### 3. help
+p:Get help using the Github Deva
+cmd:#github help
+
+---
+
+#color = ::agent_color::
+#bgcolor = ::agent_bgcolor::
+#bg = ::agent_background::
+
+p:Copyright (c)2023 Quinn Michaels
