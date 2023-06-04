@@ -18,10 +18,8 @@ const info = {
   license: package.license,
   copyright: package.copyright
 };
-
 const data_path = path.join(__dirname, 'data.json');
 const {agent,vars} = require(data_path).DATA;
-
 const GITHUB = new Deva({
   info,
   agent,
