@@ -1,11 +1,9 @@
 // Copyright (c)2023 Quinn Michaels
 // Github Deva
-
+const Deva = require('@indra.ai/deva');
 const fs = require('fs');
 const path = require('path');
-const Deva = require('@indra.ai/deva');
 const { Octokit } = require("@octokit/rest");
-
 const package = require('./package.json');
 const info = {
   id: package.id,
