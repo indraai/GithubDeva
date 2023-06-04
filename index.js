@@ -24,12 +24,9 @@ const {agent,vars} = require(data_path).DATA;
 
 const GITHUB = new Deva({
   info,
-  agent: {
-    id: agent.id,
-    key: agent.key,
-    prompt: agent.prompt,
-    voice: agent.voice,
-    profile: agent.profile,
+  agent,
+  vars,
+  utils: {
     translate(input) {
       return input.trim();
     },
@@ -40,12 +37,10 @@ const GITHUB = new Deva({
       return input.trim();
     },
   },
-  vars,
   listeners: {},
   modules: {
     octokit: false,
   },
-  devas: {},
   func: {
     issue(opts) {
       const {personal} = this.services();
