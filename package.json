@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/indraai/GithubDeva#readme",
   "dependencies": {
-    "@indra.ai/deva": "^1.1.118",
+    "@indra.ai/deva": "^1.1.122",
     "@octokit/rest": "^19.0.11"
   }
 }
